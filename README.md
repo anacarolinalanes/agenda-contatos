@@ -20,6 +20,6 @@ python agenda.py
 - Ana Carolina Monteiro Lanes - @anacarolinalanes
 - Sérgio Matheus Fonseca Alves de Moura - @fagjhs
 
-  ## Sobre o projeto
+## Sobre o projeto
 
 Projeto desenvolvido para a disciplina Projeto em Ciência de Dados I, como atividade de introdução ao GitHub (Issues, Projects, Pull Requests, Actions e Wiki).
