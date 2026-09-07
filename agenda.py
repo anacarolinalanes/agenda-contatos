@@ -3,18 +3,20 @@
 contatos = []
 
 def cadastrar_contato():
-    nome = input("Nome: ")
-    telefone = input("Telefone: ")
-    email = input("Email: ")
-    contato = {"nome": nome, "telefone": telefone, "email": email}
-    contatos.append(contato)
-    print("Contato cadastrado com sucesso!")
+    pass
 
 def listar_contatos():
     pass
 
 def buscar_contato():
-    pass
+    termo = input("Digite o nome (ou parte dele) para buscar: ")
+    encontrou = False
+    for contato in contatos:
+        if termo.lower() in contato["nome"].lower():
+            print(f"{contato['nome']} - {contato['telefone']} - {contato['email']}")
+            encontrou = True
+    if not encontrou:
+        print("Nenhum contato encontrado.")
 
 def remover_contato():
     pass
